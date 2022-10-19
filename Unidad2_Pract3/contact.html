@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Contacto</title>
 </head>
 <body>
     <!-- Encabezado -->
@@ -16,21 +16,37 @@
   <!-- Navegación / cotenedor izquierdo -->
   <nav>
     <ul>
-      <li><a href="#">Inicio</a></li>
+      <li><a href="index.html">Inicio</a></li>
       <li><a href="multimedia.html">Multimedia</a></li>
-      <li><a href="contact.html">Contacto</a></li>
+      <li><a href="#">Contacto</a></li>
     </ul>
   </nav>
   <!--Contenedor Principal-->
   <main>
-    <h3>Multimedia</h3>
-    <div>
-      <img src="img/Zelda1.png" alt="Simbolo de la trifuerza">
-    </div>
-    <section>
-      <h2>Lorum Ipsum</h2>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, nostrum! Reprehenderit, accusantium nam! Dolorum alias eos excepturi, ullam asperiores vero hic voluptas nam ipsa. Aliquid ratione maxime quidem dolores expedita!</p>
-    </section>
+    <form action="">
+      <table>
+        <tr>
+          <td><label for="name">Nombre (requerido)</label></td>
+          <td><input type="text" id="name" required></td>
+        </tr>
+        <tr>
+          <td><label for="email">Correo electrónico (requerido)</label></td>
+          <td><input type="email" id="email" required></td>
+        </tr>
+        <tr>
+          <td><label for="age">Edad</label></td>
+          <td><input type="number" id="age"></td>
+        </tr>
+        <tr>
+          <td><label for="color">Color favorito</label></td>
+          <td><input type="text" id="color"></td>
+        </tr>
+        <tr>
+          <td><label for="comments">Comentarios</label></td>
+          <td><textarea name="comentarios" id="comments" cols="30" rows="5" minlength="10"></textarea></td>
+        </tr>
+        </table>
+    </form>
   </main>
   <!-- Contenedor secundario / derecho -->
     <div class="right">
