@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: rgb(245, 245, 245);
+}
+
+h1{
+  font-size: 24px;
+  color: #242424;
+  font-weight: 900; 
+}
+
+h2{
+  font-size: 20px;
+  color: #606060;
+  font-weight: 800;
+}
+
+p{
+  font-size: 14px;
+  margin: top 30px, bottom 30px;
+}
+
+ul{
+  font-family: monospace;
+  font-size: 18px;
+  margin: left 100px;
+  padding: 20px;
+  border-style: solid;
+  border-color: blue;
+  width: 40%;
+  list-style-type: none;
+}
+
+a{
+  font-weight: bold;
+  color: darkorange;
+}
+
+li#neuquen{
+  color: green;
+}
+
+a#neuquen{
+  color: green;
+}
+
+li#rio_negro{
+  color: green;
+}
+
+a#rio_negro{
+  color: green;
+}
+
+li{
+  padding: 10px;
+  
+}
